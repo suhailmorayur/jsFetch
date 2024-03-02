@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./img/pngtree-high-temperature-summer-sun-blue-hot-summer-image_785793.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#weather{
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+}
+#wind{
+    color: aquamarine;
+    font-size: 3rem;
+}
+
+#time{
+    color: rgb(60, 1, 255);
+    font-size: 3rem;
+}
